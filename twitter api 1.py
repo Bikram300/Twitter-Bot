@@ -11,10 +11,10 @@ while True:
     print("7.Tweet a message")
     print("8.exit")
     choice=int(input("Enter your choice: "))
-    consumer_key='nUryARrGKjKe9WAsiNn4XzkFI'
-    consumer_secret='78ME9d7ed8wvAYzOz0q2F7y4sCz88JBUskdBwhbPoFo5hoSi93'
-    access_token='1011137809758019584-CkwfiGz6yPc64fRLLvcUCcUJN4oC9H'
-    access_token_secret='rbG4oU4P5l6jujaYoeXVVJbrQKqb2lC422IPW21ebegka'
+    consumer_key='#####'
+    consumer_secret='#####'
+    access_token='#####'
+    access_token_secret='######'
     auth=tweepy.OAuthHandler(consumer_key,consumer_secret)
     auth.set_access_token(access_token,access_token_secret)
     api=tweepy.API(auth)
